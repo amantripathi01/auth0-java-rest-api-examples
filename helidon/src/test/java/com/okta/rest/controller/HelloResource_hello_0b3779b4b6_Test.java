@@ -65,17 +65,10 @@ Validation:
 */
 
 // ********RoostGPT********
-<build>
-    <plugins>
-        <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-compiler-plugin</artifactId>
-            <version>3.11.0</version>
-            <configuration>
-                <source>1.8</source>
-                <target>1.8</target>
-                <compilerArgument>-proc:none</compilerArgument>
-            </configuration>
-        </plugin>
-    </plugins>
-</build>
+
+/*
+Prerequisites to run the test cases:
+1. Ensure that the 'com.okta.rest.controller:HelloResource:jar:1.0.0' dependency is available in the Maven central repository.
+2. Check the network connectivity to the Maven repository.
+3. If the problem persists, try deleting your local repository and download the dependencies again.
+*/
